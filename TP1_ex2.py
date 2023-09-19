@@ -20,4 +20,5 @@ def fMesImpots(revenu) :
         if revenu - i >= 0 : #si on fait partie de la tranche en cours
             ValRen += (revenu - i) * val #on ajoute le montant d'impots correspondant
             revenu = i #et on deduit la somme imposee des revenus
+    ValRen = int(ValRen) #troncature à l'euro près
     return ValRen
