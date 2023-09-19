@@ -6,6 +6,8 @@ Created on Tue Sep 19 08:00:00 2023
 """
 ### TP1 PYTHON : PRISE EN MAIN ###
 
+### Ex 1 ###
+
 
 ''' 2.1. Présentation
 

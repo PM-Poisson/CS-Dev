@@ -6,6 +6,8 @@ Created on Tue Sep 19 10:00:00 2023
 """
 ### TP1 PYTHON : PRISE EN MAIN ###
 
+### Ex 2 ###
+
 
 '''3. Montant de l'impôt d'une personne célibataire :
 

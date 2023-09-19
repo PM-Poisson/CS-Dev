@@ -6,6 +6,7 @@ Created on Tue Sep 19 08:00:00 2023
 """
 ### TP1 PYTHON : PRISE EN MAIN ###
 
+### Programme de tests ###
 
 from TP1_ex1 import *
 from TP1_ex2 import *
@@ -22,5 +23,5 @@ else :
 
 'Ex 2'
 
-Revenu = int(input("Veuillez entrer votre revenu annuel (en euros) : "))
-print("Vous êtes imposable sur votre revenu à hauteur de ", fMesImpots(Revenu), "euros.")
+Revenu = int(input("Veuillez entrer votre revenu annuel (en euros) : ")) #Recuperation des donnees
+print("Vous êtes imposable sur votre revenu à hauteur de ", fMesImpots(Revenu), "euros.") #Appel de fonction et resultat
