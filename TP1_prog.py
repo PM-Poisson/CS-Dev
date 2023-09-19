@@ -23,4 +23,4 @@ else :
 'Ex 2'
 
 Revenu = int(input("Veuillez entrer votre revenu annuel (en euros) : "))
-print("Vous êtes imposables sur votre revenu à hauteur de " + fMesImpots(Revenu) + "euros.")
+print("Vous êtes imposables sur votre revenu à hauteur de ", fMesImpots(Revenu), "euros.")
