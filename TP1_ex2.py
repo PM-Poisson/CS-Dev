@@ -18,7 +18,7 @@ def fMesImpots(revenu) :
     tranches = {160336 : 45 , 74545 : 41 , 26070 : 30 , 10225 : 11} #creation du dico répertoriant les tranches et leurs pourcentages
     for i,val in tranches.items() : #parcours du dico
         if revenu - i >= 0 : #si on fait partie de la tranche en cours
-            ValRen += (revenu - i) * val #on ajoute le montant d'impots correspondant
+            ValRen += (revenu - i) * val / 100 #on ajoute le montant d'impots correspondant
             revenu = i #et on deduit la somme imposee des revenus
     ValRen = int(ValRen) #troncature à l'euro près
     return ValRen
