@@ -25,3 +25,6 @@ else :
 
 Revenu = int(input("Veuillez entrer votre revenu annuel (en euros) : ")) #Recuperation des donnees
 print("Vous êtes imposable sur votre revenu à hauteur de ", fMesImpots(Revenu), "euros.") #Appel de fonction et resultat
+
+'Ex 3'
+
